@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+h2 {
+    font-size: 21px;
+}
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -14,7 +18,7 @@
 }
 
 .nav-logo {
-    height: 50px;
+    height: 55px;
     width: 100px;
 }
 
@@ -162,7 +166,7 @@
     background-image: url("hero_section.jpg");
     background-size: cover;
     display: flex;
-    align-items: flex-end   ;
+    align-items: flex-end;
     justify-content: center;
 
 }
@@ -175,8 +179,103 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
+    color: black;
 }
-.hero-msg a{
+
+.hero-msg a {
     color: rgb(34, 63, 205);
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(209, 143, 191);
+    flex-wrap: wrap;
+    height: 830px;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-img {
+    /* background-image: url('deals in pc.jpg'); */
+    background-size: cover;
+    height: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p {
+    color: rgb(34, 63, 205);
+}
+
+.box7-img {
+    height: 200px;
+    margin: 50px 50px 60px 50px;
+}
+
+.box-img-4 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.footer-back {
+    width: 100%;
+    background-color: #37475A;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-part2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: white;
+    height: 270px;
+
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p {
+    margin-top: 25px;
+    font-weight: 550;
+}
+
+.footer-part3 {
+    background-color: #232F3E;
+    height: 70px;
+    border-top: 0.1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    background-image: url("amazon logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+   
 }
